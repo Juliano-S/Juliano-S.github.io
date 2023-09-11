@@ -18,6 +18,7 @@ a:visited {
 
 a:hover {
   color: yellow;
+  background-color: rgb(50, 50, 52);
 }
 
 a:active {
@@ -27,6 +28,7 @@ a:active {
   background-color: #2b2b2b;
   color: white;
 }
+
 h1,
 h2,
 p {
@@ -61,6 +63,7 @@ li {
   float: left;
   text-align: center;
   border-bottom: 1px solid #555;
+  border-right: 1px solid #bbb;
 }
 
 h3 {
