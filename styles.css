@@ -2,6 +2,8 @@ body {
   background-color: black;
   color: white;
   font-family: Arial;
+  margin:0;
+  padding:0;
 }
 
 nav {
@@ -66,7 +68,7 @@ li {
   border-right: 1px solid #bbb;
 }
 
-h3, h4 {
+h3, h4{
   font-size: 12px;
 }
 h4 {
