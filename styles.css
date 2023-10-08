@@ -121,4 +121,9 @@ article {
   width: 100%;
   float: top;
 }
-
+p.myBorder {
+  border-width:3px;
+  border-style:solid; 
+  border-color:#FF0000; 
+  padding: 1em;
+}
