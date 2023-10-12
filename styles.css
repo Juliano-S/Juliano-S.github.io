@@ -1,9 +1,10 @@
 body {
-  background-color: black;
-  color: white;
+  background-image: url('/img/ornithion_logo4.jpg');
+  background-position: center center;
+  color: black;
   font-family: Arial;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -11,23 +12,24 @@ nav {
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 a:visited {
-  color: lightgray;
+  color: black;
 }
 
 a:hover {
-  color: yellow;
-  background-color: rgb(50, 50, 52);
+  color: black;
+  background-color: #c2c2c2;
 }
 
 a:active {
   color: blue;
 }
+
 .active {
-  background-color: #2b2b2b;
+  background-color: #b7b7b7;
   color: white;
 }
 
@@ -42,7 +44,7 @@ h1 {
   padding-top: 30px;
 }
 
-ul {
+ul.navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -68,17 +70,26 @@ li {
   border-right: 1px solid #bbb;
 }
 
-h3, h4{
+h3,
+h4 {
   font-size: 12px;
 }
+
 h4 {
   text-align: left;
+  margin-left: 28%;
+  margin-right: auto
 }
 
-table{
-  margin-left:auto;
-  margin-right:auto;
+progress {
+transform: scale(1);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  background-color: white;
 }
 
 header {
@@ -86,20 +97,21 @@ header {
 }
 
 main {
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 footer {
   text-align: center;
 }
+
 .sidenav {
-  height: 1080px;
-  width: 10.4%; 
+  height: 1150px;
+  width: 10.4%;
   background-color: #111;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   padding-top: 20px;
   float: left;
 }
@@ -117,13 +129,108 @@ footer {
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
 article {
   width: 100%;
   float: top;
 }
+
 p.myBorder {
-  border-width:3px;
-  border-style:solid; 
-  border-color:#FF0000; 
+  width: 60%;
+  margin-left: 24%;
+  margin-right: auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: blue;
   padding: 1em;
+  background-color: lightcyan;
+}
+
+p.studychoice {
+  border-color: blue;
+}
+
+p.studychoice,
+p.strenghts,
+p.weaknesses,
+p.opportunities,
+p.threats {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-width: 3px;
+  border-style: solid;
+  background-color: white;
+  padding: 1em;
+}
+
+p.strenghts,
+p.opportunities {
+  border-color: green;
+}
+
+p.weaknesses,
+p.threats {
+  border-color: red;
+}
+
+p.homepageText {
+  width: 60%;
+  margin-left: 25%;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-color: blue;
+}
+
+ul.character {
+  margin-left: 8%;
+  margin-right: auto;
+  text-align: left;
+}
+
+p.characterList {
+  text-align: left;
+  margin-left: 31.5%;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  border: 3px solid blue;
+}
+
+td {
+  text-align: left;
+}
+
+img.frans, img.ana {
+  width: 300px;
+  margin-left: 8%;
+}
+
+img.frans {
+  margin-top: -10%;
+}
+
+img.ana {
+  margin-top: -7%;
+}
+
+p.feedbackFrans, p.feedbackAna {
+  margin-left: 30%;
+  width: 50%;
+  text-align: left;
+  background-color: white;
+  border-style: solid;
+  border-color: blue;
+}
+
+img.gif {
+margin-left:37%;
+margin-right:65%;
+transform: scale(1);
 }

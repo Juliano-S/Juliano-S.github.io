@@ -7,19 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>dashboard</title>
   <link href="styles.css" rel="stylesheet">
-  <style>
-    table,
-    th,
-    td {
-      border: 1px solid white;
-    }
-  </style>
 </head>
 
 <body>
   <main>
     <nav>
-      <ul>
+      <ul class="navigation">
         <li><a href="index.html">Home page</a></li>
         <li><a href="profile.html">My profile</a></li>
         <li><a class="active" href="dashboard.html">Personal dashboard</a></li>
@@ -215,10 +208,10 @@
           </td>
         </tr>
       </table>
-      <p>*= this course lasts multiple quartiles and is completed in the last quartile it is placed in,
+      <p class="legend">*= this course lasts multiple quartiles and is completed in the last quartile it is placed in,
         all needed info about this course and it's additional components can be found in the first row it is listed in.
       </p>
-      <p> legend: ✔= you passed this course.
+      <p class="legend"> legend: ✔= you passed this course.
         ✘= you failed this course.
         ...= no grade available yet.
       </p>
