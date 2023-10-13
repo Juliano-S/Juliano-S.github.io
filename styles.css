@@ -82,12 +82,14 @@ h4 {
 }
 
 progress {
-transform: scale(2);
-margin-left: 16%;
+  transform: scale(2);
+  margin-left: 16%;
 }
+
 label {
- margin-left: 11%; 
+  margin-left: 11%;
 }
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -210,7 +212,8 @@ td {
   text-align: left;
 }
 
-img.frans, img.ana {
+img.frans,
+img.ana {
   width: 300px;
   margin-left: 8%;
 }
@@ -223,7 +226,8 @@ img.ana {
   margin-top: -7%;
 }
 
-p.feedbackFrans, p.feedbackAna {
+p.feedbackFrans,
+p.feedbackAna {
   margin-left: 30%;
   width: 50%;
   text-align: left;
@@ -233,16 +237,19 @@ p.feedbackFrans, p.feedbackAna {
 }
 
 img.experienceGif {
-margin-left:37%;
-margin-right:65%;
+  margin-left: 37%;
+  margin-right: 65%;
 }
-img.workGif{
+
+img.workGif {
   transform: scale(0.5);
   margin-top: -15%;
 }
+
 table.faq {
   width: 50%;
 }
+
 table.SKCquestions {
   width: 50%;
   text-align: left;
@@ -251,18 +258,20 @@ table.SKCquestions {
 ol.workArticles {
   width: 46.5%;
   background-color: white;
-  margin-left:24.7%;
+  margin-left: 24.7%;
   margin-right: auto;
   border-style: solid;
   border-color: blue;
 }
+
 p.article {
   text-align: left;
 }
+
 p.work {
   width: 19.5%;
   background-color: white;
-  margin-left:40%;
+  margin-left: 40%;
   margin-right: auto;
   border-style: solid;
   border-color: blue;
@@ -276,7 +285,7 @@ p.legend {
   margin-left: 30%;
 }
 
-img.studychoiceGif{
+img.studychoiceGif {
   transform: scale(0.5);
   margin-top: -10%;
   margin-left: 29.5%;
@@ -285,5 +294,5 @@ img.studychoiceGif{
 img.swotImage {
   transform: scale(0.3);
   margin-top: -22%;
-  margin-left:1%;
+  margin-left: 1%;
 }
