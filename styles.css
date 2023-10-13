@@ -232,19 +232,26 @@ p.feedbackFrans, p.feedbackAna {
   border-color: blue;
 }
 
-img.gif {
+img.experienceGif {
 margin-left:37%;
 margin-right:65%;
-transform: scale(1);
+}
+img.workGif{
+  transform: scale(0.5);
+  margin-top: -15%;
 }
 table.faq {
   width: 50%;
 }
+table.SKCquestions {
+  width: 50%;
+  text-align: left;
+}
 
 ol.workArticles {
-  width: 17%;
+  width: 46.5%;
   background-color: white;
-  margin-left:40%;
+  margin-left:24.7%;
   margin-right: auto;
   border-style: solid;
   border-color: blue;
@@ -267,4 +274,16 @@ p.legend {
   border-color: blue;
   width: 50%;
   margin-left: 30%;
+}
+
+img.studychoiceGif{
+  transform: scale(0.5);
+  margin-top: -10%;
+  margin-left: 29.5%;
+}
+
+img.swotImage {
+  transform: scale(0.3);
+  margin-top: -22%;
+  margin-left:1%;
 }
