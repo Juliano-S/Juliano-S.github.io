@@ -7,32 +7,20 @@ body {
   padding: 0;
 }
 
-nav {
-  font-family: Arial, Helvetica, sans-serif;
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-a {
-  color: black;
+/*article*/
+article {
+  width: 100%;
+  float: top;
 }
 
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: black;
-  background-color: #c2c2c2;
-}
-
-a:active {
-  color: blue;
-}
-
-.active {
-  background-color: #b7b7b7;
-  color: white;
-}
-
+/*all h1, h2, h3, h4 and p elements*/
 h1,
 h2,
 p {
@@ -44,32 +32,6 @@ h1 {
   padding-top: 30px;
 }
 
-ul.navigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: gray;
-  border: 1px solid black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li {
-  float: left;
-  text-align: center;
-  border-bottom: 1px solid #555;
-  border-right: 1px solid #bbb;
-}
-
 h3,
 h4 {
   font-size: 12px;
@@ -79,65 +41,6 @@ h4 {
   text-align: left;
   margin-left: 28%;
   margin-right: auto
-}
-
-progress {
-  transform: scale(2);
-  margin-left: 16%;
-}
-
-label {
-  margin-left: 11%;
-}
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: white;
-}
-
-header {
-  padding: 0%;
-}
-
-main {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-}
-
-.sidenav {
-  height: 1150px;
-  width: 10.4%;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-  float: left;
-}
-
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-article {
-  width: 100%;
-  float: top;
 }
 
 p.myBorder {
@@ -190,40 +93,10 @@ p.homepageText {
   border-color: blue;
 }
 
-ul.character {
-  margin-left: 8%;
-  margin-right: auto;
-  text-align: left;
-}
-
 p.characterList {
   text-align: left;
   margin-left: 31.5%;
   margin-right: auto;
-}
-
-table,
-th,
-td {
-  border: 3px solid blue;
-}
-
-td {
-  text-align: left;
-}
-
-img.frans,
-img.ana {
-  width: 300px;
-  margin-left: 8%;
-}
-
-img.frans {
-  margin-top: -10%;
-}
-
-img.ana {
-  margin-top: -7%;
 }
 
 p.feedbackFrans,
@@ -232,34 +105,6 @@ p.feedbackAna {
   width: 50%;
   text-align: left;
   background-color: white;
-  border-style: solid;
-  border-color: blue;
-}
-
-img.experienceGif {
-  margin-left: 37%;
-  margin-right: 65%;
-}
-
-img.workGif {
-  transform: scale(0.5);
-  margin-top: -15%;
-}
-
-table.faq {
-  width: 50%;
-}
-
-table.SKCquestions {
-  width: 50%;
-  text-align: left;
-}
-
-ol.workArticles {
-  width: 46.5%;
-  background-color: white;
-  margin-left: 24.7%;
-  margin-right: auto;
   border-style: solid;
   border-color: blue;
 }
@@ -285,6 +130,126 @@ p.legend {
   margin-left: 30%;
 }
 
+/*all a elements*/
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  background-color: #c2c2c2;
+}
+
+a:active {
+  color: blue;
+}
+
+.active {
+  background-color: #b7b7b7;
+  color: white;
+}
+
+/*all list elements*/
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.character {
+  margin-left: 8%;
+  margin-right: auto;
+  text-align: left;
+}
+
+ol.workArticles {
+  width: 46.5%;
+  background-color: white;
+  margin-left: 24.7%;
+  margin-right: auto;
+  border-style: solid;
+  border-color: blue;
+}
+
+/*all link elements*/
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  text-align: center;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #bbb;
+}
+
+/*tabel elements*/
+table,
+th,
+td {
+  border: 3px solid blue;
+}
+
+td {
+  text-align: left;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+table.faq {
+  width: 50%;
+}
+
+table.SKCquestions {
+  width: 50%;
+  text-align: left;
+}
+
+/*nav related elements*/
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav {
+  height: 1150px;
+  width: 10.4%;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  float: left;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/*images*/
 img.studychoiceGif {
   transform: scale(0.5);
   margin-top: -10%;
@@ -295,4 +260,52 @@ img.swotImage {
   transform: scale(0.3);
   margin-top: -22%;
   margin-left: 1%;
+}
+
+img.homepageSRS {
+  width: 40%;
+}
+
+img.frans,
+img.ana {
+  width: 300px;
+  margin-left: 8%;
+}
+
+img.frans {
+  margin-top: -10%;
+}
+
+img.ana {
+  margin-top: -7%;
+}
+
+img.experienceGif {
+  margin-left: 37%;
+  margin-right: 65%;
+}
+
+img.workGif {
+  transform: scale(0.5);
+  margin-top: -15%;
+}
+
+/*progress bar*/
+progress {
+  transform: scale(2);
+  margin-left: 16%;
+}
+
+/*label element*/
+label {
+  margin-left: 11%;
+}
+
+/*header and footer*/
+header {
+  padding: 0%;
+}
+
+footer {
+  text-align: center;
 }
